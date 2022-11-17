@@ -98,3 +98,11 @@ body {
     font-size: 22px;
     color: #828282;
 }
+
+.projeto {
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    align-items: center;
+    justify-content: space-around;
+}
