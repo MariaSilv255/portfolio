@@ -159,18 +159,27 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     gap: 50px;
-
+    border: 1px solid #8258e6;
 }
 
-.habilidade-conteudo-item {
-    background-color: #8258e6;
-    border-radius: 5px;
-    width: 230px;
-    height: 230px;
-
+.habilidade-linguagens {
+    display: flex;
+    flex-direction: column;
+    
+    
 
 
 }
+.habilidade-linguagens-item {
+    display: flex;
+    flex-direction: column;
+    color: #828282;
+    height: 185px;
+    font-size: 22px;
+    padding: 20px;
+    line-height: 50px;
+    }
+
 
 .habilidade-img {
     height: 110px;
