@@ -102,7 +102,32 @@ body {
 .projeto {
     display: flex;
     flex-direction: row;
-    gap: 53px;
-    align-items: center;
     justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+}
+
+.projetos-conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    
+}
+
+.projeto-conteudo-item {
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.projeto-img {
+    height: 325px;
+    width: 325px;
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.projeto-descricao{
+    color: #828282;
+    font-size: 22px;
 }
