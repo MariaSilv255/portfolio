@@ -262,6 +262,10 @@ body {
     padding: 30px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 
 }
 
@@ -271,6 +275,9 @@ body {
     margin-top: 12px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .contato-subtitulo2 {
