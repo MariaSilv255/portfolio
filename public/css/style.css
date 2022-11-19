@@ -206,10 +206,11 @@ body {
 .contato-conteudo-item {
     height: 230px;
     width: 320px;
-    background-color: red;
     padding: 50px;
     gap: 50px;
-    border: 1px solid #8258e6;
+    background-color: #13131F;
+    border-radius: 7px;
+    
 }
 
 .habilidade-linguagens {
@@ -238,6 +239,7 @@ body {
 .contato-subtitulo {
     font-size: 22px;
     color: #828282;
+    margin: 12px;
 }
 
 .contato-icon {
