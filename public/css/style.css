@@ -191,8 +191,6 @@ body {
     text-align: center;
     max-width: 1400px;
     margin: 0 auto;
-<<<<<<< HEAD
-
 }
 
 .contato-conteudo {
@@ -210,7 +208,6 @@ body {
     width: 320px;
     background-color: red;
     padding: 50px;
-=======
     gap: 50px;
     border: 1px solid #8258e6;
 }
@@ -218,12 +215,8 @@ body {
 .habilidade-linguagens {
     display: flex;
     flex-direction: column;
-    
-    
->>>>>>> c538f9547adee0f5dc45c4391948aef274126006
-
-
 }
+
 .habilidade-linguagens-item {
     display: flex;
     flex-direction: column;
@@ -232,7 +225,7 @@ body {
     font-size: 22px;
     padding: 20px;
     line-height: 50px;
-    }
+}
 
 
 .contato-titulo {
@@ -270,8 +263,6 @@ body {
 .rodape-conteudo {
     color: white;
     padding: 33px;
-<<<<<<< HEAD
-
 }
 
 .rodape-redeSociais {
@@ -286,6 +277,3 @@ body {
     padding: 8px;
     margin-right: 15px;
 }
-=======
-}
->>>>>>> c538f9547adee0f5dc45c4391948aef274126006
