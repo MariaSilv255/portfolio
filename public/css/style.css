@@ -339,6 +339,10 @@ main {
     margin-right: 15px;
 }
 
+#btn-mobile {
+    display: none;
+}
+
 @media screen and (min-width:768px) and (max-width: 1230px) {
     main {
         display: flex;
@@ -380,7 +384,7 @@ main {
     .projeto-conteudo-item {
         max-width: 100%;
         margin-bottom: 30px;
-        
+
 
     }
 
@@ -410,7 +414,7 @@ main {
         height: 45px;
         width: 45px;
     }
-    
+
 
     .contato-subtitulo2 {
         font-size: 15px;
@@ -419,7 +423,8 @@ main {
     .rodape-conteudo {
         font-size: 15px;
     }
-    .rodape-icon{
+
+    .rodape-icon {
         height: 35px;
         width: 35px;
     }
@@ -427,6 +432,48 @@ main {
 
 
 @media screen and (max-width:767px) {
+
+    /* para mudar o menu*/
+    #btn-mobile {
+        display: block;
+
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #nav.active {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: #13131F;
+
+    }
+
+    .hamburger {
+        color: white;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    .hamburger::after,
+    .hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 7px;
+    }
+
+    /*fim*/
     main {
         display: flex;
         flex-direction: column;
@@ -467,7 +514,7 @@ main {
     .projeto-conteudo-item {
         max-width: 100%;
         margin-bottom: 30px;
-        
+
 
     }
 
@@ -505,8 +552,8 @@ main {
     .rodape-conteudo {
         font-size: 15px;
     }
- 
-    .rodape-icon{
+
+    .rodape-icon {
         height: 35px;
         width: 35px;
     }
