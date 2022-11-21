@@ -20,7 +20,18 @@ main {
 
 .logo {
     color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+
+ 
 }
+.cabecalho-icon{
+    width: 70px;
+    height: 55px;
+}
+
+
+
 
 .cabecalho {
     display: flex;
@@ -30,7 +41,7 @@ main {
     justify-content: space-around;
     padding: 30px;
     border-bottom: 1px solid #8258e6;
-
+    
 }
 
 .cabecalho-menu {
