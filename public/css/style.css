@@ -39,7 +39,7 @@ main {
     background-color: #13131F;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 15px;
     border-bottom: 1px solid #8258e6;
     
 }
@@ -371,8 +371,8 @@ main {
     }
 
     .apresentacao-img {
-        width: 45%;
-        height: 45%;
+        width: 65%;
+        height: 65%;
     }
 
     .projeto-img {
@@ -501,8 +501,8 @@ main {
     }
 
     .apresentacao-img {
-        width: 45%;
-        height: 45%;
+        width: 95%;
+        height: 95%;
     }
 
     .projeto-img {
@@ -557,7 +557,7 @@ main {
     }
 
     .contato-subtitulo2 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .rodape-conteudo {
