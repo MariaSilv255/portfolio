@@ -1,0 +1,35 @@
+.habilidade-icon {
+    transition: all 0.5s;
+}
+
+.habilidade-icon:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+
+}
+.contato-conteudo-item{
+    transition: all 0.5s;
+
+}
+.contato-conteudo-item:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+
+}
+
+.rodape-icon {
+    transition: all 0.5s;
+}
+
+.rodape-icon:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+.projeto-img{
+    transition: all 0.5s;
+}
+.projeto-img:hover {
+    opacity: 0.5;
+    transition: 500ms linear;
+}
