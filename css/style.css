@@ -230,9 +230,8 @@ main {
     margin-top: 75px;
     display: flex;
     flex-direction: row;
- 
     max-width: 1700px;
-    gap: 55px;
+    gap: 30px;
 
 }
 
