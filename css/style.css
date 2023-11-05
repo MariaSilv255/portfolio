@@ -230,7 +230,7 @@ main {
     margin-top: 75px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+ 
     max-width: 1700px;
     gap: 55px;
 
@@ -245,8 +245,8 @@ main {
 }
 
 .projeto-img {
-    height: 23.5rem;
-    width: 23.5rem;
+    height: 19.5rem;
+    width: 19.5rem;
     max-width: 100%;
     display: block;
     border-radius: 5px;
@@ -295,17 +295,14 @@ main {
     margin-top: 75px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     max-width: 1700px;
     gap: 55px;
 }
 
 .contato-conteudo-item {
-    width: 355px;
-
+    width: 16rem;
     background-color: #13131F;
     border-radius: 7px;
-    flex-wrap: wrap;
     padding-top: 23px;
     padding-bottom: 23px;
 
@@ -340,7 +337,7 @@ main {
 }
 
 .contato-subtitulo2 {
-    font-size: 22px;
+    font-size: 18px;
     color: #828282;
     margin-top: 12px;
     font-family: 'Sarala', sans-serif;
@@ -422,7 +419,7 @@ main {
         max-width: 100%;
         display: block;
         border-radius: 5px;
-        flex-wrap: wrap;
+      
     }
 
     .projetos-conteudo {
